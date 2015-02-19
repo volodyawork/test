@@ -1,0 +1,13 @@
+# Composer PHAR
+/composer.phar
+/build/
+# Other
+.idea
+coverage
+.DS_Store
+.netbeans
+desktop.ini
+
+#my project
+*.tar.gz
+*.tar
