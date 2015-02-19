@@ -5,8 +5,8 @@
  * Date: 19.02.15
  * Time: 11:57
  */
-include_once 'Animal.php';
-include_once 'Cat.php';
+require_once 'Animal.php';
+require_once 'Cat.php';
 $animal = new Animal('Brave eagle!');
 print_r($animal->getName());
 

@@ -5,7 +5,7 @@
  * Date: 19.02.15
  * Time: 12:00
  */
-include_once 'Animal.php';
+require_once 'Animal.php';
 
 class Cat extends Animal
 {
