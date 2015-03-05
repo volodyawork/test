@@ -8,6 +8,7 @@ coverage
 .netbeans
 desktop.ini
 
+private
 #my project
 *.tar.gz
 *.tar
