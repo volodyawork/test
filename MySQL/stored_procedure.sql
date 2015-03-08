@@ -16,7 +16,9 @@ DELIMITER |
 DROP PROCEDURE IF EXISTS super_procedure_OUT|
 CREATE PROCEDURE super_procedure_OUT (OUT res VARCHAR(256))
     BEGIN
-        SET res = 'RESULT';
+        DECLARE a, b INT DEFAULT 5;
+        DECLARE c VARCHAR(45) DEFAULT 'HELLO';
+        SET res = CONCAT('RESULT', a , b, ' ', c);
     END|
 
 DELIMITER ;
