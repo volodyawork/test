@@ -1,0 +1,6 @@
+services:
+    country_listener:
+        class: AppBundle\EventListener\CountryListener
+        arguments: [ @service_container ]
+        tags:
+            - {name: kernel.event_listener, event: kernel.request}
